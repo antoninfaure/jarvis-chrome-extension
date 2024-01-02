@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat with Flask LLM</title>
+    <script src="panel.js" defer></script>
+    <link rel="stylesheet" href="panel.css">
+    <script src="showdown.min.js"></script>
+    <script src="socket.io.min.js"></script>
+</head>
+
+<body>
+    <div id="chatContainer">
+        <div id="messages"></div>
+        <textarea id="question" autofocus placeholder="Type your question..."></textarea>
+        <div class="btns-wrapper">
+            <button id="resetButton">New chat</button>
+            <button id="actionButton" disabled>Send</button>
+        </div>
+    </div>
+</body>
+
+</html>

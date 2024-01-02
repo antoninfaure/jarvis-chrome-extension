@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "Jarvis",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage",
+      "tabs",
+      "sidePanel"
+    ],
+    "host_permissions": [
+      "http://localhost:4321/*"
+    ],
+    "background": {
+      "service_worker": "background.js",
+      "matches": ["<all_urls>"]
+    },
+    "action": {
+      "default_icon": {
+        "16": "images/jarvis.png",
+        "48": "images/jarvis.png",
+        "128": "images/jarvis.png"
+      }
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["panel.html", "panel.js"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "icons": {
+      "16": "images/jarvis.png",
+      "48": "images/jarvis.png",
+      "128": "images/jarvis.png"
+    },
+    "side_panel": {
+        "default_path": "panel.html"
+      }
+  }
+  
