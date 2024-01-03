@@ -1,4 +1,4 @@
-# Jarvis: A Chrome Extension for Contextual Insights
+# 🤖 Jarvis: A Chrome Extension for Contextual Insights
 
 The Jarvis Chrome Extension is a tool designed to leverage the capabilities of a Language Learning Model (LLM) to enhance browsing experience. By  analyzing the context of current webpage, Jarvis provides tailored responses to your queries, offering a unique blend of convenience and insight.
 
@@ -50,3 +50,7 @@ Click on the extension icon in the Chrome toolbar and enter your query. The exte
 ## Contributing
 
 Pull requests are welcome :smile:.
+
+## Licence
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
